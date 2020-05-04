@@ -21,4 +21,3 @@ The paper will appear in the proceedings of SIGIR 2020. Reference to the arXiv v
     archivePrefix={arXiv},
 }
 ```
-
