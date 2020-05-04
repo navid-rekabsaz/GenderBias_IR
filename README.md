@@ -8,7 +8,6 @@ This repository contains the resources and code for measuring gender bias in the
 ## Code
 `documents_calculate_bias.ipynb`: The code for estimating the gender bias of each document in collection.
 `runs_calculate_bias.ipynb`: Using the document biases, this notebook calculates various gender bias values for each query in a given retrieval run file.
-
 `model_calculate_bias.ipynb`: Final retrieval gender bias measures are calculated in this code.
 
 ### Reference
