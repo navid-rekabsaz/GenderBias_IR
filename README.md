@@ -13,11 +13,11 @@ This repository contains the resources and code for measuring gender bias in the
 ### Reference
 The paper will appear in the proceedings of SIGIR 2020. Reference to the arXiv version:
 ```
-@misc{rekabsaz2020neural,
-    title={Do Neural Ranking Models Intensify Gender Bias?},
-    author={Navid Rekabsaz and Markus Schedl},
-    year={2020},
-    eprint={2005.00372},
-    archivePrefix={arXiv},
+@inproceedings{rekabsaz2020neural,
+    author = {Rekabsaz, Navid and Schedl, Markus}, 
+    title = {Do Neural Ranking Models Intensify Gender Bias?}, 
+    year = {2020}, 
+    doi = {10.1145/3397271.3401280}, 
+    booktitle = {Proceedings of the 43rd International ACM SIGIR Conference on Research and Development in Information Retrieval}, 
 }
 ```
