@@ -10,7 +10,7 @@ This repository contains the resources and code for measuring gender bias in the
 Follow the code in `step1_calculate_bias_documents.ipynb` for calculating the gender bias of each document in collection. At the beginning of the notebook, set `collection_path` to the path of the collection with TSV format. For MS MARCO collection, this should refer to the `collection.tsv` file. The code does not apply any particular pre-processing to the text unless converting it to lower case. It is suggested that you apply the required pre-processing before hand.
 
 #### Step 2 : calculating bias for TREC run files
-Using the pre-calculated document biases, `step2_calculate_bias_runs.ipynb` calculates gender bias scores for each query for the given retrieval run files. The paths to the TREC-formatted run files should be specified. 
+Using the pre-calculated document biases, `step2_calculate_bias_runs.ipynb` calculates gender bias scores for each query for the given retrieval run files. 
 
 #### Step 3 : RaB and ARaB metrics
 - `step3_bias_metrics.ipynb` calculates the final gender bias metrics for each experiment.
